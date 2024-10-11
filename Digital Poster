@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Awareness Campaign</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://www.transparenttextures.com/patterns/scribble.png');
+        }
+
+        .container {
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .heading {
+            text-align: center;
+            background-color: #f57c00;
+            padding: 20px;
+            border-radius: 15px;
+            color: white;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .subheading {
+            background-color: #5c3a1e;
+            color: white;
+            padding: 10px;
+            font-size: 18px;
+            margin-top: -10px;
+            text-align: center;
+            border-radius: 0 0 15px 15px;
+        }
+
+        .box {
+            background-color: #ffa726;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 15px;
+            position: relative;
+        }
+
+        .box h2 {
+            margin: 0;
+            font-size: 24px;
+            color: #fff;
+        }
+
+        .box p {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .box:before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: 20px;
+            width: 20px;
+            height: 20px;
+            background-color: yellow;
+            border-radius: 50%;
+        }
+
+        .email {
+            text-align: center;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .email a {
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Additional Doodles and Elements */
+        .doodle {
+            font-size: 30px;
+            position: absolute;
+            top: -10px;
+            right: -10px;
+        }
+
+        .sparkle {
+            font-size: 20px;
+            position: absolute;
+            bottom: -10px;
+            right: -10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="heading">Brand Awareness</div>
+        <div class="subheading">Campaign</div>
+
+        <div class="box">
+            <h2>Social Media</h2>
+            <p>The impact of social media on brand awareness.</p>
+            <span class="doodle">✿</span>
+        </div>
+
+        <div class="box">
+            <h2>Influencers</h2>
+            <p>The effectiveness of influencer marketing in building brand recognition.</p>
+        </div>
+
+        <div class="box">
+            <h2>Consumer Interaction</h2>
+            <p>The role of brand storytelling in creating emotional connections with consumers.</p>
+            <span class="sparkle">✧</span>
+        </div>
+
+        <div class="box">
+            <h2>Across Channel</h2>
+            <p>The benefits of consistent branding across all channels.</p>
+        </div>
+
+        <div class="email">
+            Contact: <a href="mailto:aishabatool58@gmail.com">aishabatool58@gmail.com</a>
+        </div>
+    </div>
+
+</body>
+</html>
